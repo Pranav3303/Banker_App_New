@@ -1,3 +1,3 @@
-# echo = "BUILD START"
+echo = "BUILD START"
 
-# echo = "BUILD END"
+echo = "BUILD END"
