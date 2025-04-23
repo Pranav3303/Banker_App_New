@@ -25,15 +25,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&&%i4h3x$c7!%jqdoi#0*^r!nkf4qf%dc@o67kv#0#=%9kp#4^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','.vercel.app','now.sh']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_notatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
