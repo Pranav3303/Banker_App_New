@@ -79,7 +79,7 @@ def signin(request):
     return render(request, 'signin.html')
 
 def profile_detail(request):
-    return redirect(request,'profile_detail')
+    return redirect(request, 'profile_detail')
 
 
 def contact1(request):

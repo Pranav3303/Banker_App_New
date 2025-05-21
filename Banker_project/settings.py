@@ -130,7 +130,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'own_repo')
 
-MEDIA_URL = '/gallery/'
+MEDIA_URL = 'gallery/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR / 'gallery')
 

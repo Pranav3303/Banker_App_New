@@ -329,11 +329,11 @@
                       <li><a href="#"><span class="icon-linkedin"></span></a></li>
                       <li><a href="#"><span class="icon-instagram"></span></a></li>
                     </ul>
-                    <img src="{{i.image.url}}" alt="{{i.name}}" class="img-fluid img-thumbnail" style="max-width:80%; max-height:70%;">
+                    <img src="{{ i.image.url }}" alt="{{i.name}}" class="img-fluid img-thumbnail">
                   </figure>
                   <div class="p-3">
-                    <h3>{{i.name}}</h3>
-                    <span class="position">{{i.desg}}</span>
+                    <h3>{{ i.name }}</h3>
+                    <span class="position">{{ i.desg }}</span>
                   </div>
                 </div>
               </div>
@@ -588,7 +588,7 @@
               <div class="card-body">
                 <h5 class="card-title">{{ i.name }}</h5>
                 <p class="card-text">{{ i.description }}</p>
-                <a href="#" class="btn btn-primary">Apply Now</a>
+                <a href="applyForm.html" class="btn btn-primary">Apply Now</a>
                 <!-- <p class="card-text short-content">
                   {{ i.description }}
                 </p>
