@@ -5,13 +5,13 @@ from django.db import models
 class employee(models.Model):
     desg = models.CharField(max_length=100)
     name = models.CharField(max_length=150)
-    image = models.ImageField(upload_to="emp_photo")
+    image = models.ImageField(upload_to="emp_photo/")
 
     def __str__(self):
         return self.name
 
 class service(models.Model):
-    image = models.ImageField(upload_to='ser_photo')
+    image = models.ImageField(upload_to='ser_photo/')
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=500)
 

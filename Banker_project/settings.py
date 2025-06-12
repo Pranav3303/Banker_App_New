@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&&%i4h3x$c7!%jqdoi#0*^r!nkf4qf%dc@o67kv#0#=%9kp#4^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
@@ -130,9 +130,9 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'own_repo')
 
-MEDIA_URL = 'gallery/'
+MEDIA_URL = '/gallery/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR / 'gallery')
+MEDIA_ROOT = os.path.join(BASE_DIR, '/gallery/')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
